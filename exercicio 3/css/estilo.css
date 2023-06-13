@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto+Condensed&display=swap');
+
+* {
+    margin: 0,5%;
+    padding: 0,5%;
+    background-color: white;
+}
+
+h1 {
+    text-decoration: solid;
+    text-align: left;
+    font-size: 30px;
+    color: black;
+    padding-left: 20px;
+}
+
+.title {
+    font-size: 25px;
+    color: #5ea2e5;
+    padding-left: 20px;
+}
+
+body {
+    font-family: Oswald, Arial, Helvetica, sans-serif;
+}
+
+#logo_acme{
+    width: 70px;
+    transition: 0.6s;
+} 
+
+#logo_acme:hover {
+    opacity: 0.5;
+  }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 30px;
+    list-style: none;
+}
+
+a{
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-color:#5ea2e5;
+    border-radius: 7px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+a:hover {
+    background-color: #1a4e83;
+  }
+
+footer {
+    color: #5ea2e5;
+    font-size: 20px;
+    text-align: right;
+    padding-right: 50px;
+}
+
+p {
+    font-size: 20px;
+    color: black;
+    text-align: justify;
+    text-indent: 3.5%;
+    padding-left: 12px;
+    padding-right: 5%;
+}
+
+#prod {
+    width: 100px;
+    padding-left: 47%;
+}
